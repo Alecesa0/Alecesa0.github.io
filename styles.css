@@ -2,3 +2,13 @@ h1{
     text-align: center;
     color: red;
 }
+
+@font-face {
+  font-family: "Edwardian Script";
+  src: url("fonts/EdwardianScript.woff2") format("woff2"),
+       url("fonts/EdwardianScript.woff") format("woff");
+}
+
+body {
+  font-family: "Edwardian Script", cursive;
+}
