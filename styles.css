@@ -1,14 +1,72 @@
-h1{
-    text-align: center;
-    color: red;
+.titolo {
+  text-align: center;
+  color: #d4af37;
 }
 
-@font-face {
-  font-family: "Edwardian Script";
-  src: url("fonts/EdwardianScript.woff2") format("woff2"),
-       url("fonts/EdwardianScript.woff") format("woff");
+.titolo2 {
+  color: #0b0b0b;
+  text-align: center;
+  font-size: 30px;
 }
 
-body {
-  font-family: "Edwardian Script", cursive;
+.titolo3 {
+  color: #0b0b0b;
+  text-align: center;
+  font-size: 28px;
+}
+
+.titolo-uscita {
+  color: #b0c4de;
+  text-align: center;
+  font-size: 30px;
+}
+
+.testo {
+  text-align: center;
+  color: #800020;
+  font-size: 25px;
+}
+
+.testo-menu {
+  text-align: center;
+  color: #6B4226;
+  font-size: 25px;
+}
+
+.testo-uscita {
+  text-align: center;
+  color:  #b0c4de;
+  font-size: 25px;
+}
+
+a:link {
+  color: blue; /* colore del link non ancora visitato */
+}
+
+a:visited {
+  color: purple; /* colore del link già visitato */
+}
+
+a:hover {
+  color: red; /* colore quando ci passi sopra col mouse */
+}
+
+a:active {
+  color: orange; /* colore mentre lo stai cliccando */
+}
+
+.invito {
+  background-color: #fffff0; /* sfondo avorio */
+  color: #800020; /* testo bordeaux */
+  font-family: "Great Vibes", cursive;
+  padding: 20px;
+  border: 2px solid #d4af37; /* bordo oro opaco */
+}
+
+.menu {
+  background-color: #fffff0; /* sfondo avorio */
+  color: #800020; /* testo bordeaux */
+  font-family: "Great Vibes", cursive;
+  padding: 20px;
+  border: 2px solid #0b0b0b; /* bordo oro opaco */
 }
